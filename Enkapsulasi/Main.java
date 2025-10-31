@@ -1,24 +1,38 @@
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 public class Main {
     public static void main(String[] args) {
-        Mahasiswa m1 = new Mahasiswa();
-        m1.setNama("Hilvan");
-        m1.setNim("123456");
-        m1.setJurusan("Teknik Informatika");
-        m1.setUmur(20);
-        m1.tampilkanInfo();
+        try {
+            SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
 
-        Mahasiswa m2 = new Mahasiswa();
-        m2.setNama(""); // Nama kosong → akan muncul peringatan
-        m2.setNim("654321");
-        m2.setJurusan("Sistem Informasi");
-        m2.setUmur(-5); // Umur negatif → akan muncul peringatan
-        m2.tampilkanInfo();
+            // 🔹 Mahasiswa 1 (Valid)
+            Date tgl1 = sdf.parse("2003-12-01");
+            Mahasiswa m1 = new Mahasiswa();
+            m1.setNama("Hilvan");
+            m1.setNim("123456");
+            m1.setJurusan("Teknik Informatika");
+            m1.setUmur(21);
+            m1.setTglLahir(tgl1);
+            m1.setSkills(new String[]{"Java", "Python", "Networking"});
 
-        Mahasiswa m3 = new Mahasiswa();
-        m3.setNama("Yadhis");
-        m3.setNim("789012");
-        m3.setJurusan(""); // Jurusan kosong → akan muncul peringatan
-        m3.setUmur(0); // Umur nol → akan muncul peringatan
-        m3.tampilkanInfo();
+            // 🔹 Mahasiswa 2 (Beberapa data tidak valid)
+            Date tgl2 = sdf.parse("2005-05-10");
+            Mahasiswa m2 = new Mahasiswa();
+            m2.setNama("Andi123"); // invalid
+            m2.setNim("");         // invalid
+            m2.setJurusan("IT");   // invalid (kurang dari 3 karakter)
+            m2.setUmur(-2);        // invalid
+            m2.setTglLahir(tgl2);
+            m2.setSkills(new String[]{"Design", "HTML"});
+
+            // 🔹 Tampilkan hasil
+            System.out.println("\n>> HASIL DATA MAHASISWA <<");
+            m1.tampilkanData();
+            m2.tampilkanData();
+
+        } catch (Exception e) {
+            System.out.println("❌ Format tanggal salah!");
+        }
     }
 }

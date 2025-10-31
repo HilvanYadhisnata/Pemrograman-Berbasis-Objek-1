@@ -1,0 +1,16 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\Users\\Hilvan\\OneDrive\\Documents\\JavaFX\\lib\\javafx.base.jar",
+        "c:\\Users\\Hilvan\\OneDrive\\Documents\\JavaFX\\lib\\javafx.controls.jar",
+        "c:\\Users\\Hilvan\\OneDrive\\Documents\\JavaFX\\lib\\javafx.fxml.jar",
+        "c:\\Users\\Hilvan\\OneDrive\\Documents\\JavaFX\\lib\\javafx.graphics.jar",
+        "c:\\Users\\Hilvan\\OneDrive\\Documents\\JavaFX\\lib\\javafx.media.jar",
+        "c:\\Users\\Hilvan\\OneDrive\\Documents\\JavaFX\\lib\\javafx.swing.jar",
+        "c:\\Users\\Hilvan\\OneDrive\\Documents\\JavaFX\\lib\\javafx.web.jar",
+        "c:\\Users\\Hilvan\\OneDrive\\Documents\\JavaFX\\lib\\javafx-swt.jar",
+        "c:\\Users\\Hilvan\\OneDrive\\Documents\\JavaFX\\lib\\jdk.jsobject.jar",
+        "c:\\Users\\Hilvan\\OneDrive\\Documents\\JavaFX\\lib\\jfx.incubator.input.jar",
+        "c:\\Users\\Hilvan\\OneDrive\\Documents\\JavaFX\\lib\\jfx.incubator.richtext.jar"
+    ]
+}
