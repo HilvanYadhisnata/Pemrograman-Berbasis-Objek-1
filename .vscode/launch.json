@@ -6,6 +6,92 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MainJavaFX",
+            "request": "launch",
+            "mainClass": "Pertemuan13.MainJavaFX",
+            "projectName": "Pemrograman-Berbasis-Objek-1_a0b14160",
+            "vmArgs": "--module-path C:\\Users\\Hilvan\\OneDrive\\Documents\\JavaFX\\lib --add-modules javafx.controls,javafx.fxml,javafx.graphics,javafx.base"
+        },
+        
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "Pemrograman-Berbasis-Objek-1_a0b14160"
+        },
+        {
+            "type": "java",
+            "name": "MainApp",
+            "request": "launch",
+            "mainClass": "eLearningPertemuan11.StudyCase.MainApp",
+            "projectName": "Pemrograman-Berbasis-Objek-1_a0b14160"
+        },
+        {
+            "type": "java",
+            "name": "FileWriting",
+            "request": "launch",
+            "mainClass": "eLearningPertemuan11.FileWriting.FileWriting",
+            "projectName": "Pemrograman-Berbasis-Objek-1_a0b14160"
+        },
+        {
+            "type": "java",
+            "name": "FileReading",
+            "request": "launch",
+            "mainClass": "eLearningPertemuan11.FileReading.FileReading",
+            "projectName": "Pemrograman-Berbasis-Objek-1_a0b14160"
+        },
+        {
+            "type": "java",
+            "name": "MainEnum",
+            "request": "launch",
+            "mainClass": "eLearningPertemuan11.Enumery.MainEnum",
+            "projectName": "Pemrograman-Berbasis-Objek-1_a0b14160"
+        },
+        {
+            "type": "java",
+            "name": "WrapperClass",
+            "request": "launch",
+            "mainClass": "eLearningPertemuan11.WrapperClass.WrapperClass",
+            "projectName": "Pemrograman-Berbasis-Objek-1_a0b14160"
+        },
+        {
+            "type": "java",
+            "name": "Enum",
+            "request": "launch",
+            "mainClass": "Enum",
+            "projectName": "Pemrograman-Berbasis-Objek-1_a0b14160"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "MultipleInterface.Main",
+            "projectName": "Pemrograman-Berbasis-Objek-1_a0b14160"
+        },
+        {
+            "type": "java",
+            "name": "MainApp",
+            "request": "launch",
+            "mainClass": "Polymorphism.MainApp",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "MainApp",
+            "request": "launch",
+            "mainClass": "Polymorpism.MainApp",
+            "projectName": "Pemrograman-Berbasis-Objek-1_a0b14160"
+        },
+        {
+            "type": "java",
+            "name": "MainApp",
+            "request": "launch",
+            "mainClass": "Polymorphism.MainApp",
+            "projectName": "Pemrograman-Berbasis-Objek-1_a0b14160"
+        },
+        {
+            "type": "java",
             "name": "MainSystem",
             "request": "launch",
             "mainClass": "MainSystem",

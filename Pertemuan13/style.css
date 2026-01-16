@@ -1,0 +1,86 @@
+/* ================= ROOT ================= */
+.root {
+    -fx-font-family: "Segoe UI", Arial;
+    -fx-background-color: linear-gradient(
+        to bottom right,
+        #74ebd5,
+        #9face6
+    );
+}
+
+/* ================= CARD FORM ================= */
+.grid-pane {
+    -fx-background-color: white;
+    -fx-background-radius: 18;
+    -fx-padding: 30;
+    -fx-border-radius: 18;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.25), 18, 0.4, 0, 5);
+}
+
+/* ================= JUDUL ================= */
+#judul {
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #34495e;
+    -fx-padding: 0 0 20 0;
+    -fx-alignment: center;
+}
+
+/* ================= LABEL ================= */
+.label {
+    -fx-font-size: 13px;
+    -fx-text-fill: #555;
+}
+
+/* ================= INPUT ================= */
+.text-field,
+.password-field,
+.combo-box {
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-color: #dcdcdc;
+    -fx-padding: 8;
+    -fx-font-size: 13px;
+}
+
+/* Fokus Input */
+.text-field:focused,
+.password-field:focused,
+.combo-box:focused {
+    -fx-border-color: #6c63ff;
+    -fx-effect: dropshadow(gaussian, rgba(108,99,255,0.4), 8, 0.5, 0, 0);
+}
+
+/* ================= RADIO & CHECKBOX ================= */
+.radio-button,
+.check-box {
+    -fx-font-size: 12px;
+    -fx-text-fill: #444;
+}
+
+/* ================= BUTTON ================= */
+.button {
+    -fx-background-color: linear-gradient(
+        to right,
+        #6c63ff,
+        #48c6ef
+    );
+    -fx-text-fill: white;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 20;
+    -fx-padding: 10 25 10 25;
+    -fx-cursor: hand;
+}
+
+/* Hover */
+.button:hover {
+    -fx-opacity: 0.9;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 10, 0.4, 0, 4);
+}
+
+/* Klik */
+.button:pressed {
+    -fx-scale-x: 0.96;
+    -fx-scale-y: 0.
+}
